@@ -1,0 +1,102 @@
+.horarios-section {
+  width: 100vw;
+  height: 100vh;
+}
+/* .horarios-nav {
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: #000;
+  font-size: clamp(32px, 6vw, 64px);
+  padding-left: 32px;
+  color: #ff7701;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+} */
+
+.horarios-conteudo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  height: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.horarios-tabela {
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+  border-spacing: 10px;
+  color: #fff;
+}
+.horarios-tabela-linha th,
+.horarios-tabela-linha td{
+  text-align: center;
+  width: 12.8vw;
+  height: 10%;
+}
+
+.horarios-tabela-linha th {
+  background-color: #000;
+  font-size: 1.5rem;
+}
+.horarios-tabela-linha:nth-child(odd) td{
+  background-color: #ff7701;
+}
+
+.horarios-tabela-linha:nth-child(even) td{
+  background-color: #FFA842;
+}
+
+.horarios-tabela-linha td:nth-child(1){
+  background-color: #000;
+}
+
+.horarios-informacoes {
+  background-color: black;
+  color: #fff;
+  margin: 10px;
+  width: 20%;
+  height: 97%;
+}
+.texto {
+  display: none;
+}
+@media (max-width:720px) {
+
+.horarios-conteudo {
+  display: none;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  height: 80%;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+
+.texto :nth-child(odd) {
+  color: #ff7701;
+  font-size: 130%;
+  font-weight: 600;
+}
+
+.texto :nth-child(even) {
+  color: #000;
+  font-size: 100%;
+  font-weight: 400;
+  margin-bottom: 10%;
+}
+
+}

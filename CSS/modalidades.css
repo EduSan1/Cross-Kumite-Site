@@ -1,0 +1,107 @@
+.modalidades {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff7701;
+  display: flex;
+  flex-direction: column;
+}
+.modalidades-container {
+  width: 100%;
+  height: 91%;
+  display: flex;
+  align-items: center;
+}
+.cardKarate {
+  width: 25%;
+  height: 100%;
+  background-image: url("../img/karate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+.card-karate-textos {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #000b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0;
+  transition: 0.5s;
+}
+.cardKarate:hover {
+  border-radius: 0px;
+  width: 30%;
+}
+.card-karate-textos:hover {
+  opacity: 1;
+}
+.titulo-karate {
+  font-size: 2.25rem;
+  padding-left: 28px;
+  font-weight: 700;
+}
+.descricao {
+  font-size: 1.1rem;
+  width: 252px;
+  height: 170px;
+  padding-left: 36px;
+  font-weight: 400;
+}
+.SaibaMais {
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 157px;
+  height: 38px;
+  background-color: #ff7701;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SaibaMais > a {
+  color: #fff;
+}
+
+@media (max-width:720px){
+  .modalidades-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  .cardKarate {
+    width: 100%;
+    height: 20%;
+}
+.cardKarate:hover{
+  width: 100%;
+  height: 25%;
+}
+.titulo-karate{
+  font-size: 1.5rem;
+}
+.descricao{
+  font-size: 1rem;
+}
+.SaibaMais{
+  display: none;
+}
+.card-karate-textos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 0px;
+  transition: all 1s;
+  text-align: center;
+}
+.descricao{
+  width: 100%;
+}
+.titulo-karate{
+  margin-top: 10px;
+}
+}

@@ -1,0 +1,61 @@
+.experiencias {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff7701;
+  display: flex;
+  flex-direction: column;
+}
+.nav-experiencias {
+  width: 100%;
+  height: 89px;
+  color: #fff;
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+.experiencias-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-experiencias {
+  background-color: #fff;
+  width: 302px;
+  height: 450px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.imagem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  margin-top: 30px;
+}
+.depoimento {
+  width: 210px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 25px;
+}
+.nome {
+  width: 198px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 17px;
+}
+.estrelas {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.estrelas i {
+  color: #ffc222;
+}
